@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - prints "Programming is like building a multilingual
- *                puzzle, followed by a new line and returns 0" 
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 
 int main(void)
 {
