@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - prints out "Programming is like building a multilingual
- *                puzzle, followed by a new line.
- * returns 0 
+ * main - prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line and returns 0" 
 */
 
 int main(void)
