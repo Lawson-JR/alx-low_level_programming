@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-/* This main function prints out "Programming is like building a multilingual puzzle" followed by a new line and then returns 0 every time  */
+/*main function: prints "Programming is like building a multilingual puzzle" and returns 0 every time*/
 
 int main(void)
 {
