@@ -6,7 +6,7 @@
  * main - Entry point
  *
  * Return: 0 Always (Success) 
- * */
+ */
 int main(void)
 {
 	int n, lastd;
@@ -27,5 +27,6 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lastd);
 	}
+
 	return (0);
 }
