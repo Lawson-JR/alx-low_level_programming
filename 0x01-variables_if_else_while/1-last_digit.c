@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry Point
  *
- * Return: 0 Always (Success) 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -19,13 +19,13 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
 	}
-	else if (lastd < 6 && lastd != 0)
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
-	}
 	else if (lastd == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lastd);
+	}
+	else if (lastd < 6 && lastd != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
 
 	return (0);
