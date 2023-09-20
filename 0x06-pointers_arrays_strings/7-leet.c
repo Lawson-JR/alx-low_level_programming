@@ -1,34 +1,34 @@
 #include "main.h"
-
 /**
- * cap_string - capitalizes everey word of a string
- * @s: string to modify
- *
- * Return: the resulting string
+ * leet -  encodes a string into 1337.
+ * @s: string to code
+ * Return: the enconde string.
  */
-char *cap_string(char *s)
+char *leet(char *s)
 {
-	int i, j;
+	int i;
+	int j;
+	int k;
 
-	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
-		'!', '?', '"', '(', ')', '{', '}'};
+	char l[] = "oOlLeEaAtT";
+	char e[] = "0011334477";
 
-	for (i = 0; s[i] != '\0'; i++)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
-			s[i] -= 32;
-
-		for (j = 0; j < 13; j++)
+		j = 0;
+		k = 0;
+		while (l[j] != '\0')
 		{
-			if (s[i] == spe[j])
+			if (s[i] == l[j])
 			{
-				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
-				{
-					s[i + 1] -= 32;
-				}
+				k = j;
+				s[i] = e[k];
 			}
+			j++;
 		}
+		i++;
 	}
-
 	return (s);
 }
+
