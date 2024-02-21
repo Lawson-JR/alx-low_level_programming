@@ -1,0 +1,7 @@
+CC = gcc
+SRC = main.c functions.c
+EXECUTABLE = school
+
+all: $(SRC)
+	$(CC) $(SRC) -o school
+
