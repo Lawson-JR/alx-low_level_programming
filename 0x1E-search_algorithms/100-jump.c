@@ -1,4 +1,4 @@
-#include "search_algorithms.h"
+#include "search_algos.h"
 #include <math.h>
 
 /**
